@@ -1,0 +1,18 @@
+Hallo Nan, 
+
+Hasilnya sudah kami liat. Dari hasil yang nanda kirim, kami ada bebepa input diantarnaya:
+
+1.	Sebelum memutuskan men-drop value (khususnya yang nilainya 0 dan/atau null), baiknya diliat terlebih dahulu statistik deskriptif dari data yang ada.
+
+2.	Jika memungkinkan, kedepannya Nanda bisa melakukan feature engineering terhadap fitur pada dataset (bisa dalam bentuk reduksi dimensi atau perubahan rentang nilai). Hal ini karena saat data pada suatu kolom jenisnya adalah data kontinu, dan tiap kolom memiliki rentang yang berbeda sangat jauh, itu bisa mengubah cara model memperlakukan data.
+
+Contoh: Kolom A rentang nilainya 1 – 10; kolom B rentang nilainya 100 – 1000
+Contoh diatas sangat memungkinkan model lebih mempertimbangkan kolom B dibanding kolom A.
+Untuk mengatasi kasus seperti itu Nanda bisa gunakan min max normalization atau mean variance normalization
+
+3.	Pada saat splitting data, perlu diperhatikan proporsi datanya. Kenapa harus 80-20 dsb.
+
+4.	Kedepannya bisa menggunakan algoritma tes yang lebih beragam untuk mengetahui lebih jauh model mana yang terbaik.
+
+5.	Visualisasi tidak harus sama seperti contoh, Nanda bisa melakukan visualisasi bebas sesuai dengan kreatifitas Nanda.
+
